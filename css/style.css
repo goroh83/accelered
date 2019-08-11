@@ -9,12 +9,11 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.36px;
-  max-width: 1300px;
+  letter-spacing: 0.45px;
+  /* max-width: 1300px; */
   color: #4a4a4a;
   margin: 0 auto;
-  background: #f5f5f5;
-  /* background-image: linear-gradient(225deg, #f1f8fe 0%, #e1eaf1 100%); */
+  /* background: #f5f5f5; */
 }
 
 @media only screen and (max-width: 1299px) {
@@ -32,6 +31,25 @@ a {
   position: relative;
 }
 
+a.btn-outlined {
+  color: #222222;
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: solid #222222 1px;
+  border-radius: 2px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: RGBA(0, 0, 0, 0);
+  letter-spacing: 0.7px;
+  transition: 0.1s all ease-in;
+}
+a.btn-outlined:hover {
+  background: RGBA(0, 0, 0, 0.1);
+}
+
 h1,
 h2,
 h3,
@@ -42,7 +60,17 @@ h6 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 56px;
+  color: #222222;
+  line-height: 1.15em;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+}
+
 header {
+  max-width: 1300px;
+  margin: auto auto;
   display: flex;
   align-items: center;
   width: 100%;
@@ -65,7 +93,7 @@ header ul {
 }
 
 header ul li {
-  margin-right: 16px;
+  margin-right: 12px;
 }
 
 header ul li:last-child a {
@@ -86,4 +114,47 @@ header ul li:last-child a {
 
 header ul li:last-child {
   margin-right: 0;
+}
+
+.hero {
+  /* height: 55vh; */
+  background-image: linear-gradient(225deg, #f1f8fe 0%, #e1eaf1 100%);
+  position: relative;
+}
+
+.hero-container {
+  max-width: 1300px;
+  margin: auto auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-text {
+  /* background: blue; */
+  min-width: 600px;
+  padding: 125px 0 200px 0;
+  top: 20%;
+  /* left: 10%; */
+}
+
+.hero h1 {
+  max-width: 600px;
+}
+
+.hero p {
+  max-width: 400px;
+}
+
+.home-hero-img {
+  /* background: red; */
+  width: 100%;
+  display: inline-block;
+}
+
+img.home-hero {
+  float: right;
+  display: inline-block;
+  /* position: absolute; */
+  height: 325px;
+  padding-right: 5vw;
 }
