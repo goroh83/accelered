@@ -31,23 +31,26 @@ a {
   position: relative;
 }
 
+p {
+  margin-bottom: 24px;
+}
+
 a.btn-outlined {
-  color: #222222;
-  margin-top: 16px;
+  color: #ffffff;
+  /* margin-top: 16px; */
   padding: 8px 16px;
-  border: solid #222222 1px;
   border-radius: 2px;
   font-size: 12px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.25px;
   text-transform: uppercase;
   font-weight: bold;
   text-transform: uppercase;
-  background: RGBA(0, 0, 0, 0);
-  letter-spacing: 0.7px;
+  background: #407cd7;
   transition: 0.1s all ease-in;
 }
 a.btn-outlined:hover {
-  background: RGBA(0, 0, 0, 0.1);
+  background: #656565;
+  color: #ffffff;
 }
 
 h1,
