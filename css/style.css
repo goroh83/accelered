@@ -120,24 +120,21 @@ header ul li:last-child {
 }
 
 .hero {
-  /* height: 55vh; */
+  height: 55vh;
   background-image: linear-gradient(225deg, #f1f8fe 0%, #e1eaf1 100%);
-  position: relative;
 }
 
 .hero-container {
+  height: 55vh;
   max-width: 1300px;
-  margin: auto auto;
+  margin: 0 auto;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .hero-text {
-  /* background: blue; */
   min-width: 600px;
-  padding: 125px 0 200px 0;
-  top: 20%;
-  /* left: 10%; */
+  padding-bottom: 60px;
 }
 
 .hero h1 {
@@ -157,7 +154,7 @@ header ul li:last-child {
   bottom: 15px;
   left: 4%;
   border-bottom: 10px solid #da7047;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: -1;
 }
 
@@ -165,16 +162,16 @@ header ul li:last-child {
   max-width: 400px;
 }
 
-.home-hero-img {
-  /* background: red; */
-  width: 100%;
+.hero-img {
+  height: 100%;
+  width: 50%;
   display: inline-block;
+  position: relative;
 }
 
-img.home-hero {
-  float: right;
-  display: inline-block;
-  /* position: absolute; */
-  height: 325px;
-  padding-right: 5vw;
+.hero-img img {
+  height: 305px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
