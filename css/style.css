@@ -16,7 +16,6 @@ body {
   /* background: #f5f5f5; */
 }
 
-
 @media only screen and (max-width: 1299px) {
   body {
     margin: 0 32px;
@@ -54,7 +53,7 @@ a.btn-outlined {
   transition: 0.1s all ease-in;
 }
 a.btn-outlined:hover {
-  background: #656565;
+  background: #3466af;
   color: #ffffff;
 }
 
@@ -113,6 +112,11 @@ header ul li:last-child a {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
+  transition: 0.1s all ease-in;
+}
+
+header ul li:last-child a:hover {
+  background: #bf633f;
 }
 
 .nav-item-active {
