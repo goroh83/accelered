@@ -76,7 +76,7 @@ h1 {
 }
 
 header {
-  max-width: 1300px;
+  max-width: 1170px;
   margin: auto auto;
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@ header ul li:last-child {
 
 .hero-container {
   height: 55vh;
-  max-width: 1300px;
+  max-width: 1170px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -179,7 +179,7 @@ header ul li:last-child {
 }
 
 .hero-img img {
-  height: 305px;
+  height: 275px;
   position: absolute;
   bottom: 0;
   right: 0;
