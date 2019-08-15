@@ -13,7 +13,6 @@ body {
   /* max-width: 1300px; */
   color: #4a4a4a;
   margin: 0 auto;
-  /* background: #f5f5f5; */
 }
 
 @media only screen and (max-width: 1299px) {
@@ -45,6 +44,8 @@ a {
 p {
   margin-bottom: 18px;
 }
+
+
 
 a.btn-outlined {
   color: #ffffff;
@@ -100,6 +101,10 @@ header .logo {
 .navbar {
   width: 100%;
 }
+.navbar a:hover{
+  color: #212121;
+}
+
 header ul {
   float: right;
   list-style: none;
