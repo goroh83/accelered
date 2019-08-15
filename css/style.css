@@ -17,8 +17,15 @@ body {
 }
 
 @media only screen and (max-width: 1299px) {
-  body {
+  header.header, section, .hero .hero-container {
     margin: 0 32px;
+  }
+
+  .navbar{
+    margin-right: 80px;
+  }
+  section.hero {
+    margin: 0 0;
   }
 }
 
