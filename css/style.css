@@ -16,11 +16,13 @@ body {
 }
 
 @media only screen and (max-width: 1299px) {
-  header.header, section, .hero .hero-container {
+  header.header,
+  section,
+  .hero .hero-container {
     margin: 0 32px;
   }
 
-  .navbar{
+  .navbar {
     margin-right: 80px;
   }
   section.hero {
@@ -44,8 +46,6 @@ a {
 p {
   margin-bottom: 18px;
 }
-
-
 
 a.btn-outlined {
   color: #ffffff;
@@ -101,7 +101,7 @@ header .logo {
 .navbar {
   width: 100%;
 }
-.navbar a:hover{
+.navbar a:hover {
   color: #212121;
 }
 
@@ -129,6 +129,7 @@ header ul li:last-child a {
 
 header ul li:last-child a:hover {
   background: #bf633f;
+  color: #ffffff;
 }
 
 .nav-item-active {
