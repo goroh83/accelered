@@ -14,6 +14,13 @@ html {
   --secondary: #da7047;
   --secondaryDark: #b25c3a;
   --white: #ffffff;
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
@@ -242,7 +249,7 @@ header ul li:last-child {
 
 .home-row2 {
   max-width: 750px;
-  margin-top: 96px;
+  margin-top: 128px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
