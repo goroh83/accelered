@@ -6,12 +6,15 @@
 
 
 html {
-  --darkNavy: #00243A;
+  /* --darkNavy: #00243A; */
+  --darkNavy:#002C47;
   --textMain: #525875;
   --text: #636363;
   --primary: #407cd7;
+  --primaryDark: #2D5796;
   --secondary: #da7047;
-  --btnFont: #ffffff;
+  --secondaryDark: #B25C3A;
+  --white: #ffffff;
 }
 
 body {
@@ -23,6 +26,7 @@ body {
   /* max-width: 1300px; */
   color: var(--textMain);
   margin: 0 auto;
+  position: relative;
 }
 
 @media only screen and (max-width: 1299px) {
@@ -57,7 +61,7 @@ p {
 }
 
 a.btn-primary {
-  color: var(--btnFont);
+  color: var(--white);
   padding: 8px 16px;
   border-radius: 2px;
   font-size: 12px;
@@ -70,7 +74,7 @@ a.btn-primary {
 }
 
 a.btn-primary:hover {
-  background: var(--primary);
+  background: var(--primaryDark);
 }
 
 h1,
@@ -91,18 +95,31 @@ h1 {
   margin-bottom: 8px;
 }
 
+h2{
+  font-size: 2em;
+}
+
 header {
-  max-width: 1170px;
   margin: auto auto;
   display: flex;
   align-items: center;
   width: 100%;
   padding: 26px 0;
-  background: #ffffff;
+  background: var(--white);
 }
 
 header .logo {
   height: 20px;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* NAVIGATION STYLING  */
@@ -110,7 +127,7 @@ header .logo {
   width: 100%;
 }
 .navbar a:hover {
-  color: #212121;
+  color: var(--darkNavy);
 }
 
 header ul {
@@ -125,19 +142,19 @@ header ul li {
 
 header ul li:last-child a {
   margin-right: 0;
-  background: #da7047;
+  background: var(--secondary);
   border-radius: 2px;
   font-size: 12px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white);
   font-weight: bold;
   transition: 0.1s all ease-in;
 }
 
 header ul li:last-child a:hover {
-  background: #bf633f;
-  color: #ffffff;
+  background:var(--secondaryDark);
+  color: var(--white);
 }
 
 .nav-item-active {
@@ -184,7 +201,7 @@ header ul li:last-child {
   height: 1px;
   bottom: 12px;
   left: 3%;
-  border-bottom: 8px solid #da7047;
+  border-bottom: 8px solid var(--secondary);
   opacity: 0.6;
   z-index: -1;
 }
@@ -212,4 +229,27 @@ header ul li:last-child {
   position: absolute;
   bottom: -32px;
   right: 0;
+}
+
+.pattern-right{
+  height: 400px;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  margin-top: 100px;
+}
+
+.home-sec1 {
+  margin-top: 100px;
+}
+
+.home-sec1 .row1 {
+  display: block;
+}
+
+.home-sec1 .row1 p {
+  max-width: 560px;
+  padding-top: 12px;
+  margin: auto auto;
+  display: block;
 }
