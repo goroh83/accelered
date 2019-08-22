@@ -200,8 +200,8 @@ header ul li:last-child {
 }
 
 .umucv {
-  height: 32px;
+  height: 26px;
   position: absolute;
-  bottom: -40px;
+  bottom: -32px;
   right: 0;
 }
