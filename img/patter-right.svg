@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="352px" viewBox="0 0 227 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F1F8FE" offset="0%"></stop>
+            <stop stop-color="#E1EAF1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="WHOLE-thing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.549781436">
+        <g id="1" transform="translate(-1053.000000, -643.000000)" fill="#FFFFFF" stroke="url(#linearGradient-1)" stroke-width="5">
+            <g id="Group-7" transform="translate(1049.000000, 646.000000)">
+                <polygon id="Polygon" points="197.5 0 240.368257 24.75 240.368257 74.25 197.5 99 154.631743 74.25 154.631743 24.75"></polygon>
+                <polygon id="Polygon-Copy" points="99.5 0 142.368257 24.75 142.368257 74.25 99.5 99 56.6317425 74.25 56.6317425 24.75"></polygon>
+                <polygon id="Polygon-Copy-2" points="148.5 82 191.368257 106.75 191.368257 156.25 148.5 181 105.631743 156.25 105.631743 106.75"></polygon>
+                <polygon id="Polygon-Copy-3" points="99.5 165 142.368257 189.75 142.368257 239.25 99.5 264 56.6317425 239.25 56.6317425 189.75"></polygon>
+                <polygon id="Polygon-Copy-5" points="52.5 247 95.3682575 271.75 95.3682575 321.25 52.5 346 9.63174251 321.25 9.63174251 271.75"></polygon>
+                <polygon id="Polygon-Copy-4" points="49.5 82 92.3682575 106.75 92.3682575 156.25 49.5 181 6.63174251 156.25 6.63174251 106.75"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

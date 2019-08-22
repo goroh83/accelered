@@ -152,6 +152,7 @@ header ul li:last-child {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .hero-text {
@@ -195,5 +196,12 @@ header ul li:last-child {
   height: 275px;
   position: absolute;
   bottom: 0;
+  right: 0;
+}
+
+.umucv {
+  height: 32px;
+  position: absolute;
+  bottom: -40px;
   right: 0;
 }
