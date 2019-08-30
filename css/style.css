@@ -1,4 +1,5 @@
 @import 'nav.css';
+/* @import 'hero.css'; */
 
 * {
   margin: 0;
@@ -57,7 +58,7 @@ a.btn-primary {
   color: var(--white);
   padding: 8px 16px;
   border-radius: 2px;
-  font-size: 12px;
+  font-size: 0.75em;
   letter-spacing: 1.25px;
   text-transform: uppercase;
   font-weight: bold;
@@ -98,68 +99,7 @@ h2 {
   margin-bottom: 2px;
 }
 
-/* header {
-  margin: auto auto;
-  display: flex;
-  max-width: 1170px;
-  align-items: center;
-  width: 100%;
-  padding: 26px 0;
-  background: var(--white);
-} */
-
-/* 
-header .logo {
-  height: 20px;
-} */
-
-/* NAVIGATION STYLING  */
-/* .navbar {
-  width: 100%;
-}
-.navbar a:hover {
-  color: var(--darkNavy);
-}
-
-header ul {
-  float: right;
-  list-style: none;
-  display: flex;
-}
-
-header ul li {
-  margin-right: 12px;
-}
-
-header ul li:last-child a {
-  margin-right: 0;
-  background: var(--secondary);
-  border-radius: 2px;
-  font-size: 12px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--white);
-  font-weight: bold;
-  transition: 0.1s all ease-in;
-}
-
-header ul li:last-child a:hover {
-  background: var(--secondaryDark);
-  color: var(--white);
-}
-
-.nav-item-active {
-  color: var(--darkNavy);
-  font-weight: bold;
-}
-
-header ul li:last-child {
-  margin-right: 0;
-} */
-
-.text-center {
-  text-align: center;
-}
+/* ************************** HERO ************************** */
 
 .hero {
   height: 55vh;
@@ -226,6 +166,33 @@ header ul li:last-child {
   right: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero-img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2.5em !important;
+  }
+
+  .hero-container {
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    min-width: 100px;
+    padding-bottom: 16px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
 .pattern-right {
   height: 400px;
   position: absolute;
@@ -289,7 +256,7 @@ header ul li:last-child {
   header .header,
   section,
   .container,
-  .hero .hero-container,
+  .hero,
   .home-sec1 {
     padding-left: 32px;
     padding-right: 32px;
@@ -300,9 +267,21 @@ header ul li:last-child {
   }
 }
 
-@media only screen and (max-width: 1299px) {
-  .home-sec1 {
-    padding-left: 32px;
-    padding-right: 32px;
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.75em;
+  }
+  .underliner:after {
+    border-bottom: 7px solid var(--secondary);
+    bottom: 11px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 14px;
+  }
+  .underliner:after {
+    border-bottom: 5px solid var(--secondary);
   }
 }
