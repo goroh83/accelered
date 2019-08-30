@@ -1,3 +1,5 @@
+@import 'nav.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -96,7 +98,7 @@ h2 {
   margin-bottom: 2px;
 }
 
-header {
+/* header {
   margin: auto auto;
   display: flex;
   max-width: 1170px;
@@ -104,14 +106,15 @@ header {
   width: 100%;
   padding: 26px 0;
   background: var(--white);
-}
+} */
 
+/* 
 header .logo {
   height: 20px;
-}
+} */
 
 /* NAVIGATION STYLING  */
-.navbar {
+/* .navbar {
   width: 100%;
 }
 .navbar a:hover {
@@ -152,7 +155,7 @@ header ul li:last-child a:hover {
 
 header ul li:last-child {
   margin-right: 0;
-}
+} */
 
 .text-center {
   text-align: center;
