@@ -113,20 +113,40 @@ header ul li {
   }
 
   .brand {
-    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .brand svg {
+    display: inline-block;
+    margin: auto auto;
   }
 
   .menu-list {
     display: flex;
+    width: 100%;
+    padding-left: 0;
     align-items: center;
     justify-content: space-between;
   }
 
   .menu-list li {
-    margin: 0;
     padding: 0;
   }
+
+  .menu-list li:first-child a {
+    padding-left: 0;
+    margin-left: 0 !important;
+  }
+
+  .menu-list li:last-child {
+    margin-right: 0;
+  }
+
   .menu-list li:last-child a {
-    padding: 6px 10px;
+    padding: 2px 4px;
+    font-size: 12px;
   }
 }
