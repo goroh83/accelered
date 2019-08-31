@@ -23,7 +23,7 @@ header {
   position: relative;
 }
 
-.menu-list ul {
+.menu-list {
   display: flex;
   justify-content: flex-end;
   list-style: none;
@@ -90,7 +90,7 @@ header ul li {
   font-weight: bold;
 }
 
-header ul li:last-child a {
+.menu-list li:last-child a {
   margin-right: 0;
   background: var(--secondary);
   border-radius: 2px;
@@ -102,38 +102,31 @@ header ul li:last-child a {
   transition: 0.1s all ease-in;
 }
 
-header ul li:last-child a:hover {
+.menu-list li:last-child a:hover {
   background: var(--secondaryDark);
   color: var(--white);
 }
 
 @media only screen and (max-width: 660px) {
-  .burger {
-    z-index: 30;
-    top: -20px;
-    display: block;
-  }
-
-  .menu-list ul {
-    z-index: 20;
-    position: absolute;
-    background: #fff;
-    width: 100vw;
-    /* height: 300px; */
-    top: -400px;
-    display: flex;
+  header {
     flex-direction: column;
-    transform: translate(-50%, -50%);
-    padding-bottom: 30px;
-    transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  .menu-list.visible ul {
-    height: 600px;
-    top: 0;
+  .brand {
+    margin-bottom: 32px;
   }
 
-  .menu-list ul li {
-    margin: 16px auto;
+  .menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-list li {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-list li:last-child a {
+    padding: 6px 10px;
   }
 }

@@ -257,13 +257,12 @@ h2 {
 /* ********************* MEDIA QUERIES ********************* */
 
 @media only screen and (max-width: 1299px) {
-  header .header,
+  header,
   section,
-  .container,
   .hero,
   .home-sec1 {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   section.hero {
@@ -279,12 +278,16 @@ h2 {
     border-bottom: 7px solid var(--secondary);
     bottom: 11px;
   }
+
+  .umucv {
+    bottom: 4px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-  body {
+  /* body {
     font-size: 14px;
-  }
+  } */
   .underliner:after {
     border-bottom: 5px solid var(--secondary);
   }

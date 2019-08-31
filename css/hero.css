@@ -56,13 +56,6 @@
   right: 0;
 }
 
-.umucv {
-  height: 26px;
-  position: absolute;
-  bottom: -32px;
-  right: 0;
-}
-
 @media only screen and (max-width: 768px) {
   .hero {
     max-width: 100vw;
@@ -71,6 +64,13 @@
 
   .hero-img {
     display: none;
+  }
+
+  .umucv {
+    height: 26px;
+    position: absolute;
+    bottom: 32px;
+    right: 0;
   }
 
   .hero-container {
