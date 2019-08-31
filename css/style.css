@@ -1,6 +1,3 @@
-@import 'nav.css';
-/* @import 'hero.css'; */
-
 * {
   margin: 0;
   padding: 0;
@@ -97,6 +94,109 @@ h2 {
   font-weight: 700;
   color: var(--darkNavy);
   margin-bottom: 2px;
+}
+
+/* ************************** NAVBAR ************************** */
+
+header {
+  margin: auto auto;
+  display: flex;
+  max-width: 1170px;
+  align-items: center;
+  width: 100%;
+  padding: 26px 0;
+  background: var(--white);
+  align-content: center;
+  position: relative;
+}
+
+.brand,
+.navigation {
+  flex: 1;
+}
+
+.brand a {
+  padding-bottom: 0;
+}
+
+.navigation {
+  position: relative;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+header ul li {
+  margin-right: 12px;
+}
+
+.nav-item-active {
+  color: var(--darkNavy);
+  font-weight: bold;
+}
+
+.menu-list li:last-child a {
+  margin-right: 0;
+  background: var(--secondary);
+  border-radius: 2px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: bold;
+  transition: 0.1s all ease-in;
+}
+
+.menu-list li:last-child a:hover {
+  background: var(--secondaryDark);
+  color: var(--white);
+}
+
+@media only screen and (max-width: 660px) {
+  header {
+    flex-direction: column;
+  }
+
+  .brand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .brand svg {
+    display: inline-block;
+    margin: auto auto;
+  }
+
+  .menu-list {
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-list li {
+    padding: 0;
+  }
+
+  .menu-list li:first-child a {
+    padding-left: 0;
+    margin-left: 0 !important;
+  }
+
+  .menu-list li:last-child {
+    margin-right: 0;
+  }
+
+  .menu-list li:last-child a {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
 }
 
 /* ************************** HERO ************************** */
