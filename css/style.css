@@ -128,8 +128,12 @@ header {
   flex: 1;
 }
 
+.brand img {
+  height: 25px;
+}
+
 .brand a {
-  padding-bottom: 0;
+  padding-bottom: 5px;
 }
 
 .navigation {
